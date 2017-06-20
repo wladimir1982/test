@@ -53,8 +53,13 @@ body {
     background-color: darkgreen;
 }
 .container__box2--subtitle {
+    font-size: 45px;
+    font-family: "FF Meta Serif", serif;
+    font-weight: 900;
+    margin: 0;
     line-height: 300px;
     text-align: center;
+    color: firebrick;
 }
 
 .title {
