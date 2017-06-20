@@ -1,10 +1,13 @@
-.clearfix:after {
-    content: '';
-    display: table;
-    clear: both;
+body {
+    margin: 0;
 }
 .container {
     background-color: yellow;
+}
+.container:after {
+    content: '';
+    display: table;
+    clear: both;
 }
 .container__box {
     float: left;
@@ -26,6 +29,13 @@
     cursor: pointer;
     border-radius: 50%;
     background-color: aqua;
+}
+.circle:hover {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    background-color: deeppink;
+    transition: all .3s ease;
 }
 .container__box1 {
     float: left;
